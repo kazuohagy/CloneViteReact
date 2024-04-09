@@ -22,24 +22,6 @@ main {
     align-items: center;
     justify-content: space-between;
 
-    .logo-container{
-      .logo-text{
-        display: flex;
-
-        justify-content:center;
-        flex-direction: column;
-        .logo-text-bold {
-          font-size: 32px;
-          font-weight: bold;
-          color: $color-primary;
-        }
-        .logo-text-regular{
-          font-size: 24px;
-          font-weight: regular;
-          color: $color-primary;
-        }
-      }
-    }
   }
 }
 

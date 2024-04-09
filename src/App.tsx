@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/logo.svg'
-import viteLogo from '/vite.svg'
+import {Logo} from './components/logo.tsx'
 import './App.scss'
 
 function App() {
@@ -10,11 +9,8 @@ function App() {
     <main>
       <header>
        <div className="logo-container">
-          <img src={reactLogo} alt="React Logo" />
-          <div className="logo-text">
-            <span className='logo-text-bold'>summerly</span>
-            <span className="logo-text-regular">media</span>
-          </div>
+          <Logo/>
+        
         </div>
       </header>
     </main>
