@@ -11,9 +11,9 @@ function App() {
       <header>
        <div className="logo-container">
           <img src={reactLogo} alt="React Logo" />
-          <div className="logo-txt">
-            <span>summerly</span>
-            <span>media</span>
+          <div className="logo-text">
+            <span className='logo-text-bold'>summerly</span>
+            <span className="logo-text-regular">media</span>
           </div>
         </div>
       </header>
