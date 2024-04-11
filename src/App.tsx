@@ -20,7 +20,7 @@ function App() {
               Contact us
               <Arrow />
             </div>
-            <div className="btn-face-purple"> 
+            <div className="btn-face-purpple"> 
               Contact us
               <Arrow />
             </div>
