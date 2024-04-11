@@ -15,8 +15,15 @@ function App() {
             <a>How it works</a>
             <a>Portfolio</a>
           </div>
-          <button>Contact us
-            <Arrow />
+          <button>
+            <div className="btn-face-white">
+              Contact us
+              <Arrow />
+            </div>
+            <div className="btn-face-purple"> 
+              Contact us
+              <Arrow />
+            </div>
           </button>
       </header>
     </main>
