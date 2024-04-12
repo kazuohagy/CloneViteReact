@@ -42,14 +42,14 @@ main {
     button{
       background-color: transparent;
       color: black;
-      padding: 16px 24px;
+   
       border:none;
       border-radius: 24px;
       font-weight: 500;
       font-size:16px;
       cursor: pointer;
       border: none;
-      
+      overflow: hidden;
       position: relative;
 
       div{
@@ -77,10 +77,10 @@ main {
         font-size:16px;
         cursor: pointer;
         border: none;
-        overflow: hidden;
+        
       }
       .btn-face-purpple{
-        background-color: $color-primary;
+        background: linear-gradient(90deg, #8E2DE2 0%, #4A00E0 100%);
         color: white;
         padding: 16px 24px;
         border:none;
@@ -91,7 +91,7 @@ main {
         border: none;
         display:none;
         position:absolute;
-        top:16px;
+        top:0px;
       
       }
       

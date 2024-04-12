@@ -26,6 +26,15 @@ function App() {
             </div>
           </button>
       </header>
+      <div className="content-container">
+        <h1>Get the best <span>design</span> for your website</h1>
+        <div className="bubble_target" >
+          😺
+        </div>
+        <div className="bubble_target" >
+          😺
+        </div>
+      </div>
     </main>
   )
 }
