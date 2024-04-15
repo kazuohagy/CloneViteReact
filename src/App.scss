@@ -96,6 +96,46 @@ main {
       }
       
     }
+    
+  }
+  .content-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow:1;
+
+    .bubble{
+      background-color: rgba(255, 255, 255, .1);
+      padding:12px;
+      border-radius: 100%;
+      padding: 12px 14px;
+      position: absolute;
+
+      &.fire{
+        right: 20px;
+        transform:rotate(-25deg);
+        bottom:30%;
+       
+      }
+      &.rocket{
+        right: 20px;
+        transform:rotate();
+        top:30%;
+        font-size:24px;
+      }
+      &.target{
+        left: 20px;
+        transform:rotate();
+        top:30%;
+        font-size:24px;
+      }
+      &.shop{
+        left: 20px;
+        transform:rotate(25deg);
+        bottom:30%;
+      }
+    }
   }
 }
 
