@@ -27,7 +27,7 @@ function App() {
           </button>
       </header>
       <div className="content-container">
-        <h1>Get the best <span>design</span> for your website</h1>
+        <h1>Get the best <span>design</span><br></br> for your website</h1>
         <div className="bubble target" >
           <img src="https://assets-global.website-files.com/63d0f8b43ca85422d48a69d6/63d187a9967765985b4ada30_direct-hit.png" style={{ width: 70, height: 70 }} loading="lazy" alt="" />
         </div>
