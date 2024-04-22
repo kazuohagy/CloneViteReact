@@ -141,28 +141,30 @@ main {
       position: absolute;
 
       &.fire{
-        right: 20px;
+        right: 200px;
         transform:rotate(-25deg);
         bottom:30%;
-       
+        animation: balance 1000ms alternate 400ms infinite;
       }
       &.rocket{
-        right: 20px;
+        right: 200px;
         transform:rotate();
-        top:30%;
-        font-size:24px;
-      }
-      &.target{
-        left: 20px;
-        transform:rotate(30deg);
         top:30%;
         font-size:24px;
         animation: balance 1000ms alternate 400ms infinite;
       }
+      &.target{
+        left: 200px;
+        transform:rotate(30deg);
+        top:25%;
+        font-size:24px;
+        animation: balance 1000ms alternate 400ms infinite;
+      }
       &.shop{
-        left: 20px;
+        left: 200px;
         transform:rotate(25deg);
         bottom:30%;
+        animation: balance 1000ms alternate 400ms infinite;
       }
     }
   }
